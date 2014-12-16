@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Unit Test Results</title>
+    <style type="text/css">html,body{font-family:Arial,sans-serif;margin:0;padding:0;}body{padding:10px 40px;}table{width:100%;margin-bottom:20px;}tr.header{background:#ddd;font-weight:bold;border-bottom:none;}td{padding:7px;border-top:none;border-left:1px black solid;border-bottom:1px black solid;border-right:none;}tr.pass td{color:#003b07;background:#86e191;}tr.skip td{color:#7d3a00;background:#ffd24a;}tr.fail td{color:#5e0e00;background:#ff9c8a;}tr:first-child td{border-top:1px black solid;}td:last-child{border-right:1px black solid;}tr.overview{font-weight:bold;color:#777;}tr.overview td{padding-bottom:0px;border-bottom:none;}tr.system-out td{color:#777;}hr{height:2px;margin:30px 0;background:#000;border:none;}</style>
+  </head>
+  <body>
+    <h1>Unit Test Results</h1>
+    <table cellspacing="0" cellpadding="0" border="0">
+      <tr class="overview">
+        <td colspan="3" title="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34">Browser: PhantomJS 1.9.8 (Windows 7)</td>
+      </tr>
+      <tr class="overview">
+        <td colspan="3">Timestamp: 2014-12-16T23:02:08</td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          2 tests / 
+          1 errors / 
+          2 failures / 
+          0 skipped / 
+          runtime: 0.005s
+        </td>
+      </tr>
+      <tr class="header">
+        <td>Status</td>
+        <td>Spec</td>
+        <td>Suite / Results</td>
+      </tr>
+      <tr class="fail">
+        <td>Failed</td>
+        <td>contains spec with an expectation</td>
+        <td>
+          smoke test
+          <br />QUnit.equals has been deprecated since 2009 (e88049a0), use QUnit.equal instead
+Expected: false
+Actual: false
+    at D:/webwork/CodeKatas/node_modules/qunitjs/qunit/qunit.js:681
+    at D:/webwork/CodeKatas/Money/tests/app.js:4
+    at sinonSandboxedTest (D:/webwork/CodeKatas/node_modules/sinon/pkg/sinon.js:5162)
+    at D:/webwork/CodeKatas/node_modules/qunitjs/qunit/qunit.js:203
+    at D:/webwork/CodeKatas/node_modules/qunitjs/qunit/qunit.js:361
+    at process (D:/webwork/CodeKatas/node_modules/qunitjs/qunit/qunit.js:1453)
+    at D:/webwork/CodeKatas/node_modules/qunitjs/qunit/qunit.js:479
+
+
+        </td>
+      </tr>
+      <tr class="fail">
+        <td>Failed</td>
+        <td>multiply dollars by scalar</td>
+        <td>
+          Money Kata
+          <br />Died on test #1     at D:/webwork/CodeKatas/node_modules/qunitjs/qunit/qunit.js:425
+    at D:/webwork/CodeKatas/Money/tests/app.js:13: Can't find variable: Dollar
+ReferenceError: Can't find variable: Dollar
+
+
+        </td>
+      </tr>
+    </table>
+    <hr/>
+  </body>
+</html>
