@@ -1,47 +1,3 @@
-Money Kata
-==========
-
-##TODO List
-- $5 * 2 = $10
-- 5 CHF * 2 = 10 CHF
-- Currency?
-- Equals()
-- HashCode()
-- Equal null
-- Equal object
-- Dollar side-effects?
-- Dollar/Franc duplication
-- $5 + 10 CHF = $10 if rate is 2:1
-- Money rounding?
-- Make "amount" private
-- Common equals
-- Common times
-- Compare Francs with Dollars
-
-```js
-var Money = function(amount, currency) {
-    this.amount = amount;
-    this.currency = currency;
-};
-
-var Dollar = function(amount) {
-    Money.call(this, amount, "USD");
-};
-Dollar.prototype = new Money();
-
-var Franc = function(amount) {
-    Money.call(this, amount, "CHF");
-};
-Franc.prototype = new Money();
-
-Money.prototype.multiply = function(times) {
-    return new Money(this.amount * times, this.currency);
-};
-
-Money.prototype.equals = function(other) {
-    return this.amount === other.amount && this.currency == other.currency;
-};
-
 describe("smoke test", function() {
     it("contains spec with an expectation", function() {
         expect(true).toBe(true);
@@ -84,4 +40,3 @@ describe("money example", function() {
         expect(franc.currency).toBe("CHF");
     });
 });
-```

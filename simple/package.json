@@ -1,0 +1,19 @@
+{
+  "name": "CodeKatasSimple",
+  "version": "0.0.1",
+  "description": "Simple Code Katas",
+  "author": "Marco Patierno ",
+  "scripts": {
+    "test": "karma start config/karma.mocha.js"
+  },
+  "devDependencies": {
+    "karma": "^0.12.31",
+    "mocha": "^2.1.0",
+    "chai": "^1.10.0",
+    "karma-mocha": "^0.1.10",
+    "karma-chai": "^0.1.0",
+    "sinon": "^1.12.2",
+    "karma-sinon": "^1.0.4",
+    "karma-phantomjs-launcher": "^0.1.4"
+  }
+}
