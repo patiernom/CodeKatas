@@ -17,7 +17,3 @@ Money Kata
 - Common equals
 - Common times
 - Compare Francs with Dollars
-
-```js
-
-```
