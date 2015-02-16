@@ -23,9 +23,9 @@ Eliminate duplication: By eliminating duplication before we go on to the next te
 
 ##Refactoring Techniques:
 
-Fake implementation: Return a constant and gradually replace constants with variables until you have the real code.
-Obvious implementation: Type in the real implementation.
-Triangulation: If two receiving stations at a known distance from each other can both measure the direction of a radio signal, 
+- Fake implementation: Return a constant and gradually replace constants with variables until you have the real code.
+- Obvious implementation: Type in the real implementation.
+- Triangulation: If two receiving stations at a known distance from each other can both measure the direction of a radio signal, 
 then there is enough information to calculate the range and bearing of the signal. This calculation is called Triangulation. 
 By analogy, when we triangulate, we only generalize code when we have two examples or more. 
 We briefly ignore the duplication between test and model code. 
