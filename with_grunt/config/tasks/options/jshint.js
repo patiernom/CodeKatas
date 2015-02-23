@@ -1,5 +1,5 @@
 module.exports = {
-    files: ['gruntfile.js', 'Money/src/**/*.js', 'Money/test/**/*.js'],
+    files: ['Gruntfile.js', 'Money/src/**/*.js', 'Money/test/**/*.js'],
     options: {
         // options here to override JSHint defaults
         globals: {

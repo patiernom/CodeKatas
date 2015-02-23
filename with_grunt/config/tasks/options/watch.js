@@ -1,7 +1,7 @@
 module.exports = {
     scripts: {
-        files: ['/scripts/src/*js'],
-        tasks: ['jshint'],
+        files: ['Money/**/*js'],
+        tasks: ['jshint','karma'],
         options: {
             spawn: false
         }
